@@ -13,6 +13,10 @@ body {
   box-sizing: border-box;
   font-family: "Manrope";
   background-color: hsl(210, 46%, 95%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
 }
 
 article {
@@ -273,4 +277,14 @@ main .profile-box h2 {
     opacity: 1;
     transform: scale(1) translateY(0);
   }
+}
+.attribution {
+  font-size: 1em;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+  color: hsl(217, 19%, 35%);
 }

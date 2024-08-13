@@ -23,7 +23,10 @@ body {
     box-sizing: border-box;
     font-family: 'Manrope';
     background-color: $light-grayish-blue;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;    
 }
 
 
@@ -330,4 +333,15 @@ main {
         opacity: 1;
         transform: scale(1) translateY(0);
     }
+}
+
+.attribution { 
+    font-size: 1em; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+    color: $very-dark-grayish-blue;
 }

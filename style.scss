@@ -33,13 +33,13 @@ body {
 
 
 //MAIN CONTENT
-article {
+main {
     background-color: white;
     max-width: 327px;
     border-radius: 10px ;
     position: relative;
     margin: auto;
-    box-shadow: 6px 16px 25px rgba(0,0,0,0.08);
+    box-shadow: 6px 16px 25px rgba(0,0,0,0.1);
 }
 
 //IMAGE CONTAINER
@@ -70,7 +70,7 @@ header {
 }
 
 //TEXT SECTION
-main {
+article {
     padding-block: 40px 20px;
     padding-inline: 32px;
 
@@ -235,7 +235,7 @@ main {
         align-items: center;
     }
 
-    article {
+    main {
         display: flex;
         max-width: 732px;
 
